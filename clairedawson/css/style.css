@@ -71,7 +71,7 @@ h1 { font-size:3em; margin:0; }
 h2 { margin:1em 0; font-size:1.5em; padding:0.25em 0; border-bottom:solid 1px #222; }
 h3 { font-size:1.17em; }
 #main, footer { padding:2em 0; }
-header {  padding:0 4em; background:#DDE5E8; color:#474747; }
+header {  background:#DDE5E8; color:#474747; }
 header .content { position:relative; padding:2em 0; }
 header strong { margin-left: 200px; font-size:1.5em; }
 header img { position:absolute; right:0; top: 1em; }
