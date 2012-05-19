@@ -115,8 +115,9 @@ blockquote.withsidebar {  }
 #pages nav li { float:left; margin-left:1em; /*padding-left:1em; border-left:solid 1px #CCC;*/ }
 #pages nav li:first-child { margin-left:0; /*border-left:none;*/ }
 #pages nav li a { display: block; padding: 0.5em 1em; text-decoration: none; }
-#pages nav li a, #pages nav li a:visited #pages nav li a:hover { color:#474747; }
-#pages nav li a.current { background: #474747; color: #DBF0F5; }
+#pages nav li a, #pages nav li a:visited, #pages nav li a:hover { color:#474747; }
+#pages nav li a.current { background: #474747;}
+#pages nav li a.current, #pages nav li a.current:visited, #pages nav li a.current:hover { color: #DBF0F5; }
 nav .pageLink { background-color:#DDE5E8; border-radius: 8px 8px 0 0; }
 .pageContainer { position:absolute; width: 4800px; }
 .pageContainer section { width:960px; float: left; }
