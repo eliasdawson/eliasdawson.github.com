@@ -62,20 +62,6 @@ input:invalid, textarea:invalid { background-color: #f0dddd; }
 table { border-collapse: collapse; border-spacing: 0; }
 td { vertical-align: top; }
 
-/* Library Styles */
-/*
-.ui-helper-hidden { display: none; }
-.ui-helper-hidden-accessible { position: absolute !important; clip: rect(1px 1px 1px 1px); clip: rect(1px,1px,1px,1px); }
-.ui-state-disabled { cursor: default !important; }
-.ui-icon { display:none; }
-
-.ui-accordion {  }
-.ui-accordion .ui-accordion-header { cursor: pointer; position: relative; padding:0.25em 0; border-top:solid 1px #222; border-bottom:solid 1px #222; }
-.ui-accordion .ui-accordion-header:focus { outline: 0; }
-.ui-accordion .ui-accordion-header:hover { background:#EEE; }
-.ui-accordion .ui-accordion-content { position: relative; top: 1px; margin-top: -2px; margin-bottom: 2px; padding:1em 0; overflow: auto; display: none; }
-.ui-accordion .ui-accordion-content-active { display: block; }
-*/
 /* Primary Styles */
 
 html, body { min-height:100%; }
@@ -84,9 +70,9 @@ p, h3 { margin:0 0 1em; }
 h1 { font-size:3em; margin:0; }
 h2 { margin:1em 0; font-size:1.5em; padding:0.25em 0; border-bottom:solid 1px #222; }
 h3 { font-size:1.17em; }
-#main, footer { padding:2em 4em; }
+#main, footer { padding:2em 0; }
 header {  padding:0 4em; background:#DDE5E8; color:#474747; }
-header .content { position:relative; padding:2em 0; /*background:#DDE5E8 url(../img/initials.png) no-repeat right 1em;*/ }
+header .content { position:relative; padding:2em 0; }
 header strong { margin-left: 200px; font-size:1.5em; }
 header img { position:absolute; right:0; top: 1em; }
 header .imgborder { position: absolute; right:38px; top:1em; width:110px; height:110px; border:solid 1px #222; }
@@ -112,8 +98,8 @@ blockquote.withsidebar {  }
 #main { background:#FFF; }
 #pages { position:relative; height:65em; padding:2em 0; margin:2em 0; border-bottom:solid 1px #CCC; border-top:solid 1px #CCC; }
 #pages nav { padding-left:3%; border-bottom:solid 1px #CCC; }
-#pages nav li { float:left; margin-left:1em; /*padding-left:1em; border-left:solid 1px #CCC;*/ }
-#pages nav li:first-child { margin-left:0; /*border-left:none;*/ }
+#pages nav li { float:left; margin-left:1em; }
+#pages nav li:first-child { margin-left:0; }
 #pages nav li a { display: block; padding: 0.5em 1em; text-decoration: none; }
 #pages nav li a, #pages nav li a:visited, #pages nav li a:hover { color:#474747; }
 #pages nav li a.current { background: #474747;}
