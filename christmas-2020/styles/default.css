@@ -1,0 +1,87 @@
+body,
+main {
+	min-height: 100vh;
+}
+
+body {
+	background-color: #111;
+	background-image:url("../img/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+}
+
+main {
+	background-color: rgba(16,16,16,.5);
+	box-sizing: border-box;
+	color: #fff;
+	font-family: 'Varta', sans-serif;
+	font-weight: 300;
+	font-size: 1.25rem;
+	line-height: 1.4;
+	min-width: 320px;
+	padding: 2rem;
+	position: relative;
+	z-index: 2;
+}
+
+main p {
+	max-width: 1024px;
+	margin: 0 auto 1rem;
+}
+
+h1 {
+	text-align: center;
+	font-size: 2rem;
+	margin: 0 auto 2rem;
+}
+
+@media (min-width: 600px) {
+	h1 {
+		font-size: 3rem;
+		margin-bottom: 2.5rem;
+	}
+
+	main {
+		font-size: 1.55rem;
+		padding-top: 3rem;
+	}
+}
+
+@media (min-width: 1024px) {
+
+	h1 {
+		font-size: 4rem;
+		margin-bottom: 3.5rem;
+	}
+
+	main {
+		padding-top: 4rem;
+	}
+}
+
+@keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+.fade-in {
+	opacity: 0;
+	animation-name: fadeIn;
+	animation-duration: 3s;
+	animation-delay: .5s;
+	animation-fill-mode: forwards;
+}
+
+.script-font {
+	font-family: 'Felipa', cursive;
+	font-weight: normal;
+}
+
+#signature {
+	margin-top: 3rem;
+}
+
+#signature p {
+	margin-bottom: 0;
+}
