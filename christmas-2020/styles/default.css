@@ -85,3 +85,8 @@ h1 {
 #signature p {
 	margin-bottom: 0;
 }
+
+#playlist {
+	margin: 3rem auto 0;
+	width: 320px;
+}
